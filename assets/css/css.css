@@ -1,0 +1,75 @@
+* {
+    font-family: Arial;
+    font-size: 16px;
+}
+.background-color1 {
+    background-color: #e0922e;
+}
+.background-color2 {
+    background-color: #58ddeb;
+}
+.background-color3 {
+    background-color: #ffebd0;
+}
+.background-color4 {
+    background-color: #3f434d;
+}
+.text-color1 {
+    color: #eea03b;
+}
+.text-color2 {
+    color: #7d8081;
+}
+.banner {
+    background-image: url("/assets/image/image-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 9vh;
+}
+.banner2 {
+    background-image: url("/assets/image/img-back.jpg");
+    background-position: start center;
+    background-size: cover;
+}
+.banner4 {
+    background-image: url("/assets/image/background-4.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+.banner5 {
+    background-image: url("/assets/image/background-5.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+.banner6 {
+    background-image: url("/assets/image/dog.jpg");
+    background-position: top center;
+    background-size: cover;
+    height: 60vh;
+}
+.button1:hover {
+    opacity: 0.5;
+}
+.link1:hover {
+    color: black;
+}
+.link2:hover {
+    font-weight: 600;
+}
+.display2 {
+    display: none;
+}
+.display1:hover {
+    display: none;
+}
+.display1:hover + .display2 {
+    display: block;
+}
+.animal {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.animal:hover {
+    transform: scale(1.1);
+}
